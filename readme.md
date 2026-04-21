@@ -2,7 +2,7 @@
 
 A Chrome Extension engineered to natively record verifiable events (edits and pastes) within Google Docs, formatted to the TWFF standard.
 
-🎥 **[Watch the Demo on Loom]([text](https://www.loom.com/share/70e658777907491784e8da0f3679a903))**
+🎥 **[Watch the Demo on Loom](https://www.loom.com/share/70e658777907491784e8da0f3679a903)**
 
 ---
 
