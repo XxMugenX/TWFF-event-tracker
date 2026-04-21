@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tracker",
+  "version": "1.0",
+  "description": "Tracks edit and paste events in Google Docs.",
+  "permissions": [
+    "clipboardRead",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "View Logs"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/document/*"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ]
+}
